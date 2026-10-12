@@ -15,8 +15,8 @@ echo.
 :: Open browser
 start "" "http://127.0.0.1:5000"
 
-:: Navigate to project directory and run app
-cd /d "%~dp0Major_project-main"
+:: Run app in current directory
+cd /d "%~dp0"
 python app.py
 
 pause
